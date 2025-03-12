@@ -1,0 +1,39 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full-screen */
+    width: 100%;  /* Full width */
+}
+
+.background {
+    background-image: url("HAPPY BIRTHDAY AMMA.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; /* Ensure it fills viewport height */
+    width: 100vw; /* Full width */
+    position: relative; /* To position button relative to this */
+}
+
+
+.click {
+    position: absolute; 
+    top: 74%; 
+    left: 70%; 
+    transform: translateX(-50%); /* Perfect horizontal centering */
+    padding: 15px 30px; 
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(184, 79, 110);
+    background-color: rgb(184, 228, 184);
+    cursor: pointer;
+    border: none;
+    border-radius: 8px; 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+.click:hover {
+    background-color: rgb(160, 210, 160);
+    transform: scale(1.05); 
+}
